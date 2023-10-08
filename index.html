@@ -8,47 +8,56 @@
 </head>
 <body>
 
-    <form action="#">
-        <fieldset>
-            <legend>Let's do this!</legend>
-            <div>
-                <div>
-                    <label for="firstname">First name</label><br>
-                    <input name="firstname" type="text">
-                </div>
-                
-                <div>
-                    <label for="lastname">Last name</label><br>
-                    <input name="lastname" type="text">
+    <div class="container">
+        <div class="bgPicture">
+            <div class="logo">
+                <img src="./rubic.png" alt="logo" class="rubik">
+                <p class="build">Build.</p>
             </div>
-           </div>
-                <div>
-                    <div>
-                        <label for="email">Email</label><br>
-                        <input name="email" type="email">
-                    </div>
-                    
-                                <div>
-                    <label for="phone">Phone Number</label><br>
-                    <input name="phone" type="tel" minlength="10">
-                                </div>
+        </div>
+        <div class="right">
+        <div class="dummy-text left">
+            <p>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!</p>
+            <p>Sign up <em>now</em> to get started.</p>
+            <p class="remote-text">You <em>know</em> you want to.</p>
+        </div>
+            <form action="#">
+                <div class="form left">
+                    <p class="form-title">Let's do this!</p>
+                        <div class="formField">
+                                <label for="firstname">First name</label><br>
+                                <input name="firstname" type="text" required>
+                        </div>
+                        
+                        <div class="formField">
+                                <label for="lastname">Last name</label><br>
+                                <input name="lastname" type="text">
+                        </div>
+                        
+                        <div class="formField">
+                                    <label for="email">Email</label><br>
+                                    <input name="email" type="email" required>
+                        </div>
+                                
+                        <div class="formField">
+                                <label for="phone">Phone Number</label><br>
+                                <input name="phone" type="number" minlength="10">
+                        </div>
+                            
+                        <div class="formField">    
+                                <label for="password">Password</label><br>
+                                <input name="password" type="password" minlength="5" required>
+                        </div>
+                        
+                        <div class="formField">
+                                <label for="confirmpassword">Confirm Password</label><br>
+                                <input name="confirmpassword" type="password" minlength="5" required>
+                        </div>
                 </div>
-
-            <div>
-                <div>
-                    <label for="password">Password</label><br>
-                    <input name="password" type="password" minlength="5">
-                </div>
-                
-                <div>
-                    <label for="confirmpassword">Confirm Password</label><br>
-                    <input name="confirmpassword" type="password" minlength="5">
-                </div>
-            </div>
-
-        </fieldset>
-        <button type="submit">Create Account</button>
-    </form>
-    
+                <div class="left button"><button type="submit">Create Account</button></div>
+            </form>
+            <div class="login left"><p>Already have an account?</p><a href="#">Log in</a></div>
+        </div>
+    </div>
 </body>
 </html>
