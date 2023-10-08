@@ -16,8 +16,5 @@ else{
 
 }
 
-//if(cPwd){
-//cPwd.addEventListener('focus',validate);
-//}
 
 
