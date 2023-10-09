@@ -227,6 +227,7 @@ footer{
    
     footer{
      position: inherit;
-     background-color:#10100F;
+     background-color:#1e1e1d;
+     opacity: 1;
 }
 }
